@@ -7,7 +7,7 @@
   <meta name="googlebot" content="index,follow,snippet,archive">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Theme</title>
+  <title>Github Study</title>
 
   <meta name="author" content="" />
   <meta name="keywords" content="">
@@ -48,9 +48,9 @@
   <link rel="alternate" href="https://aitmmlab.github.io/index.xml" type="application/rss+xml" title="AIT MM-LAB Tech Blog">
 
   
-  <meta property="og:title" content="Theme" />
+  <meta property="og:title" content="Github Study" />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="/tags/theme//" />
+  <meta property="og:url" content="/blog/2017/02/16/shiroron//" />
   <meta property="og:image" content="img/logo.png" />
 
 </head>
@@ -69,9 +69,9 @@
         <div class="container">
             <div class="navbar-header">
                 <a class="navbar-brand home" href="https://aitmmlab.github.io/">
-                    <img src="https://aitmmlab.github.io/img/logo.png" alt="Theme logo" class="hidden-xs hidden-sm">
-                    <img src="https://aitmmlab.github.io/img/logo-small.png" alt="Theme logo" class="visible-xs visible-sm">
-                    <span class="sr-only">Theme - go to homepage</span>
+                    <img src="https://aitmmlab.github.io/img/logo.png" alt="Github Study logo" class="hidden-xs hidden-sm">
+                    <img src="https://aitmmlab.github.io/img/logo-small.png" alt="Github Study logo" class="visible-xs visible-sm">
+                    <span class="sr-only">Github Study - go to homepage</span>
                 </a>
                 <div class="navbar-buttons">
                     <button type="button" class="navbar-toggle btn-template-main" data-toggle="collapse" data-target="#navigation">
@@ -136,7 +136,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h1>Theme</h1>
+                <h1>Github Study</h1>
             </div>
         </div>
     </div>
@@ -145,58 +145,97 @@
 
         <div id="content">
             <div class="container">
+
                 <div class="row">
+
                     
 
-                    <div class="col-md-9" id="blog-listing-medium">
+                    <div class="col-md-9" id="blog-post">
 
+                        <p class="text-muted text-uppercase mb-small text-right">February 16, 2017</p>
+
+                        <div id="post-content">
+                          
+
+<h1 id="practice-github-and-mark-down">Practice Github And Mark Down</h1>
+
+<p>Github勉強会で学んだ事を思い出しながら書いていきます。</p>
+
+<p>まずターミナルを起動します。</p>
+
+<p><code>$ git clone クローンを作りたいGithubにあるリポジトリのhttps</code></p>
+
+<p>でクローンを作ります。そうすることで自分のPC上でGithubのレポジトリをいじることができるんだと思います。</p>
+
+<p>(その前にクローンを入れる用のフォルダを作ると良い)</p>
+
+<p>Githubで自分のリポジトリを作ったのなら、まずはREADME.mdを作ると良いです。</p>
+
+<p><strong>ファイル更新までの基本的な手順</strong></p>
+
+<p><code>$ git add ファイル名</code></p>
+
+<p>でファイルを追加します。</p>
+
+<p>↓</p>
+
+<p><code>git commit -m &quot;任意のコメント&quot;</code></p>
+
+<p>で任意のコメントを付けてファイルをコミット(ファイルの更新内容を定義)します。</p>
+
+<p>↓</p>
+
+<p><code>$ git push origin master</code></p>
+
+<p>でmasterに変更した物を入れて更新します。</p>
+
+<p>以上を繰り返します。</p>
+
+<p><strong>チームでやるときは重要!branchくん!</strong></p>
+
+<p><code>$ git branch ブランチ名</code></p>
+
+<p>でbrunch 枝をきります(masterから枝分かれさせる)。</p>
+
+<p><code>$ git checkout ブランチ名</code></p>
+
+<p>でbrunchを変更します。</p>
+
+<p>今現在いるbranchを知りたかったら&hellip;</p>
+
+<p><code>$ git branch</code></p>
+
+<p>一覧が表示されて、自分が現在いるbranchの前に＊がつきます。</p>
+
+<p>チーム制作をするときは、
+自分が作業したものは自分の枝に入れていく。そしてみんなで確認します(レビューする)。</p>
+
+<p>最後にmasterに集結させます(marge)。</p>
+
+<p>branchをきらないと、もしバグがあったときや同時に複数の人が更新してしまった時に大変な目に遭ってしまいます:(</p>
+
+                        </div>
                         
                         
-                        <section class="post">
-                            <div class="row">
-                                <div class="col-md-4">
-                                  <div class="image">
-                                      <a href="https://aitmmlab.github.io/blog/2015/06/24/creating-a-new-theme/">
-                                          
-                                          <img src="https://aitmmlab.github.io/img/banners/banner-1.jpg" class="img-responsive" alt="">
-                                          
-                                      </a>
-                                  </div>
-                                </div>
-                                <div class="col-md-8">
-                                    <h2><a href="https://aitmmlab.github.io/blog/2015/06/24/creating-a-new-theme/">Creating a new theme</a></h2>
-                                    <div class="clearfix">
-                                        <p class="author-category">
-                                          
-                                          
-                                          
-                                          in <a href="https://aitmmlab.github.io/categories/starting">starting</a>
-                                          
-                                          
+                        <div id="comments">
+                            <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'devcows';
+    var disqus_identifier = 'https:\/\/aitmmlab.github.io\/blog\/2017\/02\/16\/shiroron\/';
+    var disqus_title = 'Github Study';
+    var disqus_url = 'https:\/\/aitmmlab.github.io\/blog\/2017\/02\/16\/shiroron\/';
 
-                                        </p>
-                                        <p class="date-comments">
-                                            <a href="https://aitmmlab.github.io/blog/2015/06/24/creating-a-new-theme/"><i class="fa fa-calendar-o"></i> June 24, 2015</a>
-                                        </p>
-                                    </div>
-                                    <p class="intro">Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&rsquo;t cover using CSS to style your theme.
-We&rsquo;ll start with creating a new site with a very basic template.</p>
-                                    <p class="read-more"><a href="https://aitmmlab.github.io/blog/2015/06/24/creating-a-new-theme/" class="btn btn-template-main">Continue reading</a>
-                                    </p>
-                                </div>
-                            </div>
-                        </section>
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+                        </div>
                         
 
-                        <ul class="pager">
-                            
-                            <li class="previous disabled"><a href="#">&larr; Newer</a></li>
-                            
-
-                            
-                            <li class="next disabled"><a href="#">Older &rarr;</a></li>
-                            
-                        </ul>
                     </div>
                     
 
@@ -293,6 +332,7 @@ We&rsquo;ll start with creating a new site with a very basic template.</p>
 
                 </div>
                 
+
             </div>
             
         </div>

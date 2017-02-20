@@ -7,8 +7,301 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <copyright>Copyright (c) 2017, AIT MM-LAB; all rights reserved.</copyright>
-    <lastBuildDate>Tue, 14 Feb 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 16 Feb 2017 15:30:06 +0900</lastBuildDate>
     <atom:link href="https://aitmmlab.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Github Study</title>
+      <link>https://aitmmlab.github.io/blog/2017/02/16/shiroron/</link>
+      <pubDate>Thu, 16 Feb 2017 15:30:06 +0900</pubDate>
+      
+      <guid>https://aitmmlab.github.io/blog/2017/02/16/shiroron/</guid>
+      <description>
+
+&lt;h1 id=&#34;practice-github-and-mark-down&#34;&gt;Practice Github And Mark Down&lt;/h1&gt;
+
+&lt;p&gt;Github勉強会で学んだ事を思い出しながら書いていきます。&lt;/p&gt;
+
+&lt;p&gt;まずターミナルを起動します。&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;$ git clone クローンを作りたいGithubにあるリポジトリのhttps&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;でクローンを作ります。そうすることで自分のPC上でGithubのレポジトリをいじることができるんだと思います。&lt;/p&gt;
+
+&lt;p&gt;(その前にクローンを入れる用のフォルダを作ると良い)&lt;/p&gt;
+
+&lt;p&gt;Githubで自分のリポジトリを作ったのなら、まずはREADME.mdを作ると良いです。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;ファイル更新までの基本的な手順&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;$ git add ファイル名&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;でファイルを追加します。&lt;/p&gt;
+
+&lt;p&gt;↓&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;git commit -m &amp;quot;任意のコメント&amp;quot;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;で任意のコメントを付けてファイルをコミット(ファイルの更新内容を定義)します。&lt;/p&gt;
+
+&lt;p&gt;↓&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;$ git push origin master&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;でmasterに変更した物を入れて更新します。&lt;/p&gt;
+
+&lt;p&gt;以上を繰り返します。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;チームでやるときは重要!branchくん!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;$ git branch ブランチ名&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;でbrunch 枝をきります(masterから枝分かれさせる)。&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;$ git checkout ブランチ名&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;でbrunchを変更します。&lt;/p&gt;
+
+&lt;p&gt;今現在いるbranchを知りたかったら&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;$ git branch&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;一覧が表示されて、自分が現在いるbranchの前に＊がつきます。&lt;/p&gt;
+
+&lt;p&gt;チーム制作をするときは、
+自分が作業したものは自分の枝に入れていく。そしてみんなで確認します(レビューする)。&lt;/p&gt;
+
+&lt;p&gt;最後にmasterに集結させます(marge)。&lt;/p&gt;
+
+&lt;p&gt;branchをきらないと、もしバグがあったときや同時に複数の人が更新してしまった時に大変な目に遭ってしまいます:(&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Github勉強会を開催しました</title>
+      <link>https://aitmmlab.github.io/blog/2017/02/16/yamachi0320/</link>
+      <pubDate>Thu, 16 Feb 2017 15:30:06 +0900</pubDate>
+      
+      <guid>https://aitmmlab.github.io/blog/2017/02/16/yamachi0320/</guid>
+      <description>
+
+&lt;p&gt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt; HEAD
+&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt; HEAD&lt;/p&gt;
+
+&lt;h1 id=&#34;github勉強会に参加してきました&#34;&gt;GitHub勉強会に参加してきました&lt;/h1&gt;
+
+&lt;h2 id=&#34;タイムテーブル&#34;&gt;タイムテーブル&lt;/h2&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;center&#34;&gt;時間&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;内容&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;14:00&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;gitの説明&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;14:15&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;githubアカウントの作成&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;14:30&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;gitのインストール&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;14:40&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;pushの仕方&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;15:00&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;休憩&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;15:10&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;brunchの説明&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;15:30~&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;実践&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;17:00&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;終了&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;全行程で3時間ほどでした。余裕をもって取り組むことが出来ました。&lt;/p&gt;
+
+&lt;h4 id=&#34;ブランチの説明のときの風景&#34;&gt;ブランチの説明のときの風景　　&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&#34;DSC_0225.JPG&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;最初よくわからなかったbrunchの事がよくわかりました。&lt;/p&gt;
+
+&lt;h3 id=&#34;場所&#34;&gt;場所&lt;/h3&gt;
+
+&lt;p&gt;森本研で行いました。&lt;/p&gt;
+
+&lt;h2 id=&#34;講師の方々&#34;&gt;講師の方々&lt;/h2&gt;
+
+&lt;p&gt;中野 雄都さん&lt;br /&gt;
+前でプロジェクターを使ってわかりやすく説明してくれました。すごい。&lt;/p&gt;
+
+&lt;p&gt;中村 友惟さん&lt;/p&gt;
+
+&lt;h1 id=&#34;質問すると教えに来てくれました-すごい&#34;&gt;質問すると教えに来てくれました。すごい。&lt;/h1&gt;
+
+&lt;p&gt;=======
+&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt; blog/ryouya.tanoue&lt;/p&gt;
+
+&lt;h1 id=&#34;github勉強会を開催しました&#34;&gt;GitHub勉強会を開催しました&lt;/h1&gt;
+
+&lt;h2 id=&#34;タイムテーブル-1&#34;&gt;タイムテーブル&lt;/h2&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;center&#34;&gt;時間&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;内容&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt; HEAD&lt;/p&gt;
+
+&lt;h1 id=&#34;blog-shiroron&#34;&gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt; blog/Shiroron&lt;/h1&gt;
+
+&lt;blockquote&gt;
+&lt;blockquote&gt;
+&lt;blockquote&gt;
+&lt;blockquote&gt;
+&lt;blockquote&gt;
+&lt;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;blog/ryouya.tanoue&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>森本研GitHubHands-onに参加</title>
+      <link>https://aitmmlab.github.io/blog/2017/02/16/ryouya/</link>
+      <pubDate>Thu, 16 Feb 2017 15:30:05 +0900</pubDate>
+      
+      <guid>https://aitmmlab.github.io/blog/2017/02/16/ryouya/</guid>
+      <description>
+
+&lt;h1 id=&#34;森本研のハンズオンに参加しました&#34;&gt;森本研のハンズオンに参加しました&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&#34;../../images/DSC_0008.JPG&#34; alt=&#34;画像テスト&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;第一回目は，2017/2/16(木) 14:00〜&lt;/li&gt;
+&lt;li&gt;GitHubのアカウント作成から,チームでのウェブサイト更新まで&lt;/li&gt;
+&lt;li&gt;参加はほぼ森本研の人たちで，一人だけ中條研の人がいました（僕です）&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;とりあえずコマンド列挙-git&#34;&gt;とりあえずコマンド列挙（git）&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;git &amp;ndash;version&lt;br /&gt;
+gitのバージョン情報を表示する.&lt;/li&gt;
+&lt;li&gt;git config &amp;ndash;list&lt;br /&gt;
+gitの設定を表示する．&lt;/li&gt;
+&lt;li&gt;git clone [URI]&lt;br /&gt;
+ローカルにディレクトリをコピーする．&lt;/li&gt;
+&lt;li&gt;git branch  [branch_name]&lt;br /&gt;
+分岐先を作成する．バージョン的な．&lt;/li&gt;
+&lt;li&gt;git checkout  [branch_name]&lt;br /&gt;
+分岐先に移動する．&lt;/li&gt;
+&lt;li&gt;git checkout -b [branch_name]&lt;br /&gt;
+上記２つのコマンドを同時に実行するコマンド．&lt;br /&gt;
+ブランチ[branch_name]を作成し，作成したブランチ[branch_name]に移動する．&lt;/li&gt;
+&lt;li&gt;git push&lt;br /&gt;
+変更内容（追加，削除，更新など）をリモートリポジトリに反映させる．&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;このコマンドも-hugo&#34;&gt;このコマンドも（Hugo）&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;更新途中 %追加しといてください&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;使用例&#34;&gt;使用例&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;更新途中  %追加しといてください&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;ハンズオンの様子と感想&#34;&gt;ハンズオンの様子と感想&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;うちの研究室もこれくらい広かったらいいなあと思いました．&lt;/li&gt;
+&lt;li&gt;複数の研究室で，お互いに勉強会を開いてスキルアップできたらいいなあとも．&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;あ&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>aitSKT</title>
+      <link>https://aitmmlab.github.io/blog/2017/02/16/aitskt/</link>
+      <pubDate>Thu, 16 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://aitmmlab.github.io/blog/2017/02/16/aitskt/</guid>
+      <description>
+
+&lt;h1 id=&#34;github勉強会に参加しました&#34;&gt;&lt;strong&gt;GitHub勉強会に参加しました&lt;/strong&gt;&lt;/h1&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&#34;やったこと&#34;&gt;やったこと&lt;/h3&gt;
+
+&lt;dl&gt;
+  &lt;dt&gt;GitHubとは&lt;/dt&gt;
+  &lt;dd&gt;・gitはソースを管理する技術の一つ&lt;/dd&gt;
+  &lt;dt&gt;GitHub実践&lt;/dt&gt;
+  &lt;dd&gt;・READMEを編集してプッシュ&lt;/dd&gt;
+  &lt;dt&gt;hugoでブログページを確認&lt;/dt&gt;
+  &lt;dd&gt;・宿題としてブログページを編集&lt;/dd&gt;
+&lt;/dl&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&#34;エラー&#34;&gt;エラー&lt;/h3&gt;
+
+&lt;h5 id=&#34;push時に403エラーが発生-br&#34;&gt;push時に403エラーが発生&lt;br&gt;&lt;/h5&gt;
+
+&lt;p&gt;configのurlにユーザー名を追加する&lt;br&gt;
+  コマンド  &amp;lsquo;vim ./.git/config&amp;rsquo;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://blog.tokoyax.com/entry/git/git-push-403error&#34;&gt;参考記事&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>hello world</title>
