@@ -2,11 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://aitmmlab.github.io/</loc>
-    <lastmod>2017-02-16T15:30:06+09:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://aitmmlab.github.io/blog/2017/02/16/shiroron/</loc>
     <lastmod>2017-02-16T15:30:06+09:00</lastmod>
   </url>
@@ -17,8 +12,13 @@
   </url>
   
   <url>
-    <loc>https://aitmmlab.github.io/blog/2017/02/16/ryouya/</loc>
+    <loc>https://aitmmlab.github.io/blog/2017/02/16/ryouya.tanoue/</loc>
     <lastmod>2017-02-16T15:30:05+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://aitmmlab.github.io/blog/2017/02/16/kosukegit/</loc>
+    <lastmod>2017-02-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -42,11 +42,69 @@
   </url>
   
   <url>
+    <loc>https://aitmmlab.github.io/</loc>
+    <lastmod>2017-02-16T15:30:06+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://aitmmlab.github.io/blog/</loc>
+    <lastmod>2017-02-16T15:30:06+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://aitmmlab.github.io/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://aitmmlab.github.io/contact/</loc>
   </url>
   
   <url>
     <loc>https://aitmmlab.github.io/faq/</loc>
+  </url>
+  
+  <url>
+    <loc>https://aitmmlab.github.io/tags/go/</loc>
+    <lastmod>2015-09-17T13:47:08+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://aitmmlab.github.io/categories/programming/</loc>
+    <lastmod>2015-09-17T13:47:08+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://aitmmlab.github.io/categories/starting/</loc>
+    <lastmod>2015-06-24T13:50:46+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://aitmmlab.github.io/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://aitmmlab.github.io/tags/test/</loc>
+    <lastmod>2017-02-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://aitmmlab.github.io/categories/test/</loc>
+    <lastmod>2017-02-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://aitmmlab.github.io/tags/theme/</loc>
+    <lastmod>2015-06-24T13:50:46+02:00</lastmod>
+    <priority>0</priority>
   </url>
   
 </urlset>
